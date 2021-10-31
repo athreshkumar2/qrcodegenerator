@@ -19,7 +19,7 @@ qr = qrcode.QRCode(
     border=5          #It is the white part of the image - Border will be filled with white from 4 sides.
 )
 
-insta = "https://photos.app.goo.gl/u35rA6up5xdNb9TX6"
+insta = "http://45.79.126.214:5000/"
 
 qr.add_data(insta)
 qr.make(fit=True)
